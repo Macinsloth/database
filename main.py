@@ -13,7 +13,7 @@ def index():
     else:
         user = None
 
-    return render_template("index.html")
+    return render_template("index.html", user=user)
 
 
 
